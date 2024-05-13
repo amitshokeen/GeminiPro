@@ -19,7 +19,7 @@ const {
   } = require("@google/generative-ai");
   
 const MODEL_NAME = "gemini-pro";
-const API_KEY = "AIzaSyBBlyTq4QKtmSJTMT51X3A2hFvc7vr4DUw";
+const API_KEY = "";
 
 function tweetExtract(filePath, callback) {
   fs.readFile(filePath, 'utf8', (err, data) => {
